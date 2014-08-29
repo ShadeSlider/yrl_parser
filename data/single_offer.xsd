@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://webmaster.yandex.ru/schemas/feed/realty/2010-06" targetNamespace="http://webmaster.yandex.ru/schemas/feed/realty/2010-06" elementFormDefault="qualified">
+    <xsd:element name="offer">
+        <xsd:complexType>
+            <xsd:sequence>
+                <!-- Generic Information -->
+                <xsd:element name="type">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="продажа" />
+                            <xsd:enumeration value="аренда" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="property-type">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="жилая" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="category" type="objectCategory" />
+                <xsd:element name="url" type="xsd:anyURI" />
+                <xsd:element name="creation-date" type="xsd:dateTime" />
+                <xsd:element name="last-update-date" type="xsd:dateTime" minOccurs="0" />
+                <xsd:element name="expire-date" type="xsd:dateTime" minOccurs="0" />
+                
+                <xsd:element name="payed-adv" type="booleanExt" minOccurs="0" />
+                <xsd:element name="manually-added" type="booleanExt" minOccurs="0" />
+                <!-- @end Generic Information -->
+
+                <!-- Location Information -->
+                <xsd:element name="location">
+                    <xsd:complexType>
+                        <xsd:all>
+                            <xsd:element name="country" type="characterStringExt" />
+                            <xsd:element name="region" type="characterStringExt" minOccurs="0" />
+                            <xsd:element name="district" type="characterStringExt" minOccurs="0" />
+                            <xsd:element name="locality-name" type="characterStringExt" />
+                            <xsd:element name="sub-locality-name" type="characterStringExt" minOccurs="0" />
+                            <xsd:element name="non-admin-sub-locality" type="characterStringExt" minOccurs="0" />
+                            <xsd:element name="address" type="characterStringExt" minOccurs="0" />
+                            <xsd:element name="direction" type="characterStringExt" minOccurs="0" />
+                            <xsd:element name="distance" type="xsd:integer" minOccurs="0" />
+                            <xsd:element name="latitude" type="xsd:decimal" minOccurs="0" />
+                            <xsd:element name="longitude" type="xsd:decimal" minOccurs="0" />
+                            <xsd:element name="metro" minOccurs="0">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="name" type="characterStringExt" />
+                                        <xsd:element name="time-on-foot" type="xsd:integer" />
+                                        <xsd:element name="time-on-transport" type="xsd:integer" minOccurs="0" />
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element> 
+                            <xsd:element name="railway-station" type="characterStringExt" minOccurs="0"/>
+                        </xsd:all>
+                    </xsd:complexType>
+                </xsd:element>
+                <!-- @end Location Information -->
+                
+                <!-- Sales Agent Information -->
+                <xsd:element name="sales-agent">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="name" type="characterString" />
+                            <xsd:element name="phone" type="phoneString" maxOccurs="unbounded"/>
+                            <xsd:element name="category">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:enumeration value="владелец" />
+                                        <xsd:enumeration value="агентство" />
+                                        <xsd:enumeration value="owner" />
+                                        <xsd:enumeration value="agency" />
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="organization" type="characterString" minOccurs="0" />
+                            <xsd:element name="agency-id" type="characterString" minOccurs="0" />
+                            <xsd:element name="url" type="xsd:anyURI" minOccurs="0" />
+                            <xsd:element name="email" type="emailString" minOccurs="0" />
+                            <xsd:element name="partner" type="characterString" minOccurs="0" />
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <!-- @end Sales Agent Information -->
+                
+                <!-- Price Information -->
+                <xsd:element name="price">
+                    <xsd:complexType>
+                        <xsd:all>
+                            <xsd:element name="value" type="xsd:decimal" />
+                            <xsd:element name="currency">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:enumeration value="RUR" />
+                                        <xsd:enumeration value="RUB" />
+                                        <xsd:enumeration value="USD" />
+                                        <xsd:enumeration value="UAH" />
+                                        <xsd:enumeration value="BYR" />
+                                        <xsd:enumeration value="KZT" />
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>                            
+                            <xsd:element name="period" type="characterString" minOccurs="0" />
+                            <xsd:element name="unit" type="characterString" minOccurs="0" />
+                        </xsd:all>
+                    </xsd:complexType>
+                </xsd:element>
+                <!-- @end Price Information -->
+                
+                <!-- Misc #1 Information -->
+                <xsd:element name="not-for-agents" type="booleanExt" minOccurs="0" />
+                <xsd:element name="haggle" type="booleanExt" minOccurs="0" />
+                <xsd:element name="mortgage" type="booleanExt" minOccurs="0" />
+                <xsd:element name="prepayment" type="xsd:decimal" minOccurs="0" />
+                <xsd:element name="rent-pledge" type="booleanExt" minOccurs="0" />
+                <xsd:element name="agent-fee" type="xsd:decimal" minOccurs="0" />
+                <xsd:element name="with-pets" type="booleanExt" minOccurs="0" />
+                <xsd:element name="with-children" type="booleanExt" minOccurs="0" />
+                <!-- @end Misc #1 Information -->
+
+                <!-- Misc #2 Information -->
+                <xsd:element name="renovation" type="characterString" minOccurs="0" />
+                <xsd:element name="image" type="xsd:anyURI" minOccurs="0" maxOccurs="unbounded" />
+                <xsd:element name="description" type="characterStringExt" minOccurs="0" />
+                <xsd:element name="area" type="areaType" minOccurs="0" />
+                <xsd:element name="living-space" type="areaType" minOccurs="0" />
+                <xsd:element name="kitchen-space" type="areaType" minOccurs="0" />
+                <xsd:element name="lot-area" type="areaType" minOccurs="0" />
+                <xsd:element name="lot-type" type="characterString" minOccurs="0" />
+                <!-- @end Misc #2 Information -->
+                
+                <!-- Misc #3 Information -->
+                <xsd:element name="new-flat" type="booleanExt" minOccurs="0" />
+                <xsd:element name="rooms" type="xsd:decimal" minOccurs="0" />
+                <xsd:element name="rooms-offered" type="xsd:decimal" minOccurs="0" />
+                <xsd:element name="open-plan" type="booleanExt" minOccurs="0" />
+                <xsd:element name="rooms-type" type="characterString" minOccurs="0" />
+                <xsd:element name="phone" type="booleanExt" minOccurs="0" />
+                <xsd:element name="internet" type="booleanExt" minOccurs="0" />
+                <xsd:element name="room-furniture" type="booleanExt" minOccurs="0" />
+                <xsd:element name="kitchen-furniture" type="booleanExt" minOccurs="0" />
+                <xsd:element name="television" type="booleanExt" minOccurs="0" />
+                <xsd:element name="washing-machine" type="booleanExt" minOccurs="0" />
+                <xsd:element name="refrigerator" type="booleanExt" minOccurs="0" />
+                <xsd:element name="balcony" type="characterString" minOccurs="0" />
+                <xsd:element name="bathroom-unit" type="characterString" minOccurs="0" />
+                <xsd:element name="floor-covering" type="booleanExt" minOccurs="0" />
+                <xsd:element name="window-view" type="booleanExt" minOccurs="0" />
+                <xsd:element name="floor" type="xsd:integer" minOccurs="0" />
+                <!-- @end Misc #3 Information -->
+                
+                <!-- Misc #3 Information -->
+                <xsd:element name="floors-total" type="xsd:integer" minOccurs="0" />
+                <xsd:element name="building-name" type="characterString" minOccurs="0" />
+                <xsd:element name="building-type" type="characterString" minOccurs="0" />
+                <xsd:element name="building-series" type="characterString" minOccurs="0" />
+                <xsd:element name="building-state" minOccurs="0" >
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="unfinished" />
+                            <xsd:enumeration value="built" />
+                            <xsd:enumeration value="hand-over" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="built-year" type="xsd:integer" minOccurs="0" />
+                <xsd:element name="ready-quarter" minOccurs="0" >
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:integer">
+                            <xsd:enumeration value="1" />
+                            <xsd:enumeration value="2" />
+                            <xsd:enumeration value="3" />
+                            <xsd:enumeration value="4" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="lift" type="booleanExt" minOccurs="0" />
+                <xsd:element name="rubbish-chute" type="booleanExt" minOccurs="0" />
+                <xsd:element name="is-elite" type="booleanExt" minOccurs="0" />
+                <xsd:element name="parking" type="booleanExt" minOccurs="0" />
+                <xsd:element name="alarm" type="booleanExt" minOccurs="0" />
+                <xsd:element name="ceiling-height" type="xsd:decimal" minOccurs="0" />
+                <!-- @end Misc #3 Information -->
+
+                <!-- Misc #4 Information -->
+                <xsd:element name="pmg" type="booleanExt" minOccurs="0" />
+                <xsd:element name="toilet" minOccurs="0">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="в доме" />
+                            <xsd:enumeration value="на улице" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="shower" minOccurs="0">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="в доме" />
+                            <xsd:enumeration value="на улице" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="kitchen" type="booleanExt" minOccurs="0" />
+                <xsd:element name="pool" type="booleanExt" minOccurs="0" />
+                <xsd:element name="billiard" type="booleanExt" minOccurs="0" />
+                <xsd:element name="sauna" type="booleanExt" minOccurs="0" />
+                <xsd:element name="heating-supply" type="booleanExt" minOccurs="0" />
+                <xsd:element name="water-supply" type="booleanExt" minOccurs="0" />
+                <xsd:element name="sewerage-supply" type="booleanExt" minOccurs="0" />
+                <xsd:element name="electricity-supply" type="booleanExt" minOccurs="0" />
+                <xsd:element name="gas-supply" type="booleanExt" minOccurs="0" />
+                <!-- @end Misc #4 Information -->
+            </xsd:sequence>
+            <xsd:attribute name="internal-id" type="xsd:integer" use="required" />
+        </xsd:complexType>
+    </xsd:element>
+    
+    
+    
+    <!-- Character String -->
+    <xsd:simpleType name="characterString">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[\p{P}\sa-zA-Zа-яА-Я0-9]*" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <!-- @end Character String -->    
+    <!-- Character String With Punctuation  -->
+    <xsd:simpleType name="characterStringPunct">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[\p{P}\sa-zA-Zа-яА-Я0-9]*" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <!-- @end Character String With Punctuation -->
+    <!-- Character String Extended -->
+    <xsd:simpleType name="characterStringExt">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[\p{P}\sa-zA-Zа-яА-Я0-9-+]*" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <!-- @end Character String Extended -->
+    <!-- Email String-->
+    <xsd:simpleType name="emailString">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[^@]+@[^\.]+\..+" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <!-- @end Email String -->
+    <!-- Phone String -->
+    <xsd:simpleType name="phoneString">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[\s0-9-+()]*" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <!-- @end Phone String -->    
+
+    <!-- Realty Object Category -->
+    <xsd:simpleType name="objectCategory">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="комната" />
+            <xsd:enumeration value="квартира" />
+            <xsd:enumeration value="дом" />
+            <xsd:enumeration value="участок" />
+            <xsd:enumeration value="flat" />
+            <xsd:enumeration value="room" />
+            <xsd:enumeration value="house" />
+            <xsd:enumeration value="cottage" />
+            <xsd:enumeration value="townhouse" />
+            <xsd:enumeration value="таунхаус" />
+            <xsd:enumeration value="часть дома" />
+            <xsd:enumeration value="house with lot" />
+            <xsd:enumeration value="дом с участком" />
+            <xsd:enumeration value="дача" />
+            <xsd:enumeration value="lot" />
+            <xsd:enumeration value="земельный участок" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <!-- @end Realty Object Category -->
+    
+    <!-- Boolean Extended -->
+    <xsd:simpleType name="booleanExt">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="да" />
+            <xsd:enumeration value="нет" />
+            <xsd:enumeration value="true" />
+            <xsd:enumeration value="false" />
+            <xsd:enumeration value="1" />
+            <xsd:enumeration value="0" />
+            <xsd:enumeration value="+" />
+            <xsd:enumeration value="-" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <!-- @end Boolean Extended -->
+
+    <!-- Area Type -->
+    <xsd:complexType name="areaType">
+        <xsd:all>
+            <xsd:element name="value" type="xsd:decimal" />
+            <xsd:element name="unit" type="characterStringPunct" />
+        </xsd:all>
+    </xsd:complexType>
+    <!-- @end Area Type -->
+</xsd:schema>

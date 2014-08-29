@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<realty-feed xmlns="http://webmaster.yandex.ru/schemas/feed/realty/2010-06">
+	<generation-date><![CDATA[2014-02-18T12:07:04+04:00]]></generation-date>
+	<offer internal-id="22976">
+		<type><![CDATA[продажа]]></type>
+		<property-type><![CDATA[жилая]]></property-type>
+		<category><![CDATA[дом]]></category>
+		<url><![CDATA[http://realty.jcat.ru/758b3bbc/]]></url>
+		<creation-date><![CDATA[2014-02-18T12:06:24+04:00]]></creation-date>
+		<last-update-date><![CDATA[2014-02-18T12:06:24+04:00]]></last-update-date>
+		<expire-date><![CDATA[2014-02-19T12:06:24+04:00]]></expire-date>
+		<payed-adv><![CDATA[1]]></payed-adv>
+		<manually-added><![CDATA[1]]></manually-added>
+		<location>
+			<country><![CDATA[Россия]]></country>
+			<region><![CDATA[Московская область]]></region>
+			<district><![CDATA[Чеховский р-н]]></district>
+			<locality-name><![CDATA[Молоди]]></locality-name>
+			<direction><![CDATA[Симферопольское шоссе]]></direction>
+			<distance><![CDATA[36]]></distance>
+		</location>
+		<sales-agent>
+			<name><![CDATA[Svetlana Chekaldina]]></name>
+			<phone><![CDATA[+7 (916) 1300100]]></phone>
+			<category><![CDATA[владелец]]></category>
+			<url><![CDATA[http://Svetagent.ru]]></url>
+			<email><![CDATA[Cheksvetik1@yandex.ru]]></email>
+		</sales-agent>
+		<price>
+			<value><![CDATA[4700000]]></value>
+			<currency><![CDATA[RUR]]></currency>
+		</price>
+		<renovation><![CDATA[дизайнерский]]></renovation>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2012-08/29/3782613a9f2f9660af859b6ea0badbc5.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2012-08/29/0b375d1f5ac0709964d81f8d1beea914.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2012-08/29/5818b86a88cf842077cc3db1b4a860a6.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2012-08/29/d360b03f8df7240fe062546932a9bb4b.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2012-08/29/9b08516821703acb42e0c3a3cf21c138.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2012-08/29/ff9b77bb3179cfc3c64941e5968181da.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2012-08/29/91fa2310934821d7972c92c07e734593.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2012-08/29/0e164bef800f34e0c64c4cdd44e88182.jpg]]></image>
+		<description><![CDATA[Прямо в лесу Дом и  благоустроенный участок площадью 6 соток в селе Молоди, садовое товарищество  Дубрава, 36 км от Московской кольцевой дороги  по Симферопольскому шоссе. Зрелый сад, дом из бруса с мансардой и полуподвальный этаж с гаражом , русская баня, шикарная отапливаемая беседка - кухня, индивидуальное водоснабжение, обогрев электричеством  + камин , газ по границе, электричкой до ст Столбовая или Колхозная ,далее пешком минут 15.
+В 500 м прекрасный чистый пруд поделенный на две части: одна часть для любителей купания с оборудованным пляжем и другая - для любителей рыбалки .]]></description>
+		<area>
+			<value><![CDATA[120]]></value>
+			<unit><![CDATA[кв.м]]></unit>
+		</area>
+		<lot-area>
+			<value><![CDATA[6]]></value>
+			<unit><![CDATA[сот]]></unit>
+		</lot-area>
+		<rooms><![CDATA[4]]></rooms>
+		<phone><![CDATA[0]]></phone>
+		<internet><![CDATA[0]]></internet>
+		<room-furniture><![CDATA[0]]></room-furniture>
+		<floors-total><![CDATA[2]]></floors-total>
+		<alarm><![CDATA[1]]></alarm>
+		<sauna><![CDATA[1]]></sauna>
+		<heating-supply><![CDATA[1]]></heating-supply>
+		<water-supply><![CDATA[1]]></water-supply>
+		<sewerage-supply><![CDATA[0]]></sewerage-supply>
+		<electricity-supply><![CDATA[1]]></electricity-supply>
+		<gas-supply><![CDATA[0]]></gas-supply>
+	</offer>
+	<offer internal-id="18854">
+		<type><![CDATA[продажа]]></type>
+		<property-type><![CDATA[жилая]]></property-type>
+		<category><![CDATA[квартира]]></category>
+		<url><![CDATA[http://realty.jcat.ru/835ae40e/]]></url>
+		<creation-date><![CDATA[2014-02-18T12:06:24+04:00]]></creation-date>
+		<last-update-date><![CDATA[2014-02-18T12:06:24+04:00]]></last-update-date>
+		<expire-date><![CDATA[2014-02-19T12:06:24+04:00]]></expire-date>
+		<payed-adv><![CDATA[1]]></payed-adv>
+		<manually-added><![CDATA[1]]></manually-added>
+		<location>
+			<country><![CDATA[Россия]]></country>
+			<region><![CDATA[Московская область]]></region>
+			<locality-name><![CDATA[Балашиха]]></locality-name>
+			<address><![CDATA[Первомайская улица, 5, 5]]></address>
+		</location>
+		<sales-agent>
+			<name><![CDATA[Кострикин Дмитрий Николаевич]]></name>
+			<phone><![CDATA[+7 (495) 9840400]]></phone>
+			<category><![CDATA[агентство]]></category>
+			<organization><![CDATA[ДМ-Холдинг]]></organization>
+			<url><![CDATA[http://www.балашиха28.рф]]></url>
+			<email><![CDATA[sale@dm-holding.com]]></email>
+		</sales-agent>
+		<price>
+			<value><![CDATA[5992800]]></value>
+			<currency><![CDATA[RUR]]></currency>
+		</price>
+		<mortgage><![CDATA[1]]></mortgage>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-03/07/64932eee594a1517c2de30ac272f5e4a.jpg]]></image>
+		<description><![CDATA[Двухкомнатные квартиры в новостройке монолитно - кирпичном доме индивидуального проекта в самом центре г. Балашиха. Квартиры - распашонки, окна выходят на Запад и на Восток. В квартире две лоджии, которые выходят на две стороны. Большая кухня и большой холл. Есть возможность перепланировки двухкомнатной квартиры в трехкомнатную.]]></description>
+		<area>
+			<value><![CDATA[68.1]]></value>
+			<unit><![CDATA[кв.м]]></unit>
+		</area>
+		<living-space>
+			<value><![CDATA[33.56]]></value>
+			<unit><![CDATA[кв.м]]></unit>
+		</living-space>
+		<kitchen-space>
+			<value><![CDATA[12.08]]></value>
+			<unit><![CDATA[кв.м]]></unit>
+		</kitchen-space>
+		<new-flat><![CDATA[1]]></new-flat>
+		<rooms><![CDATA[2]]></rooms>
+		<phone><![CDATA[1]]></phone>
+		<room-furniture><![CDATA[0]]></room-furniture>
+		<balcony><![CDATA[балкон]]></balcony>
+		<bathroom-unit><![CDATA[раздельный]]></bathroom-unit>
+		<floor><![CDATA[16]]></floor>
+		<floors-total><![CDATA[19]]></floors-total>
+		<building-type><![CDATA[другое]]></building-type>
+		<built-year><![CDATA[2012]]></built-year>
+		<ready-quarter><![CDATA[3]]></ready-quarter>
+		<lift><![CDATA[1]]></lift>
+		<rubbish-chute><![CDATA[1]]></rubbish-chute>
+		<alarm><![CDATA[0]]></alarm>
+		<ceiling-height><![CDATA[2.8]]></ceiling-height>
+		<gas-supply><![CDATA[0]]></gas-supply>
+	</offer>
+	<offer internal-id="71536">
+		<type><![CDATA[аренда]]></type>
+		<property-type><![CDATA[жилая]]></property-type>
+		<category><![CDATA[cottage]]></category>
+		<url><![CDATA[http://realty.jcat.ru/89a3cd6b/]]></url>
+		<creation-date><![CDATA[2014-02-18T12:06:24+04:00]]></creation-date>
+		<last-update-date><![CDATA[2014-02-18T12:06:24+04:00]]></last-update-date>
+		<expire-date><![CDATA[2014-02-19T12:06:24+04:00]]></expire-date>
+		<payed-adv><![CDATA[1]]></payed-adv>
+		<manually-added><![CDATA[1]]></manually-added>
+		<location>
+			<country><![CDATA[Россия]]></country>
+			<region><![CDATA[Московская область]]></region>
+			<locality-name><![CDATA[Балашиха]]></locality-name>
+			<address><![CDATA[Тюльпановая улица, 47]]></address>
+			<direction><![CDATA[Носовихинское шоссе]]></direction>
+			<distance><![CDATA[14]]></distance>
+		</location>
+		<sales-agent>
+			<name><![CDATA[татьяна]]></name>
+			<phone><![CDATA[+7 (925) 7715393]]></phone>
+			<category><![CDATA[владелец]]></category>
+			<url><![CDATA[http://kottegi.ru]]></url>
+			<email><![CDATA[arenda@kottegi.ru]]></email>
+		</sales-agent>
+		<price>
+			<value><![CDATA[20000]]></value>
+			<currency><![CDATA[RUR]]></currency>
+			<period><![CDATA[день]]></period>
+		</price>
+		<prepayment><![CDATA[0]]></prepayment>
+		<rent-pledge><![CDATA[0]]></rent-pledge>
+		<agent-fee><![CDATA[0]]></agent-fee>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/13ab26c8d1aaeac90f0943205f6eebef.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/91d0b01da95c5ff46fc1f218acdd4813.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/b390a7cf14e9a659ada99defc6500a29.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/54c7f079f56b0637c9a85257edeb5387.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/5d83fe711e366fb0a234f2955f6607ff.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/caedbc9fb5e8e5901834164702806fd2.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/f444d2d20bc9fe45b7826d841269fc16.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/c6b8e0239db78e3f4fdd538f4d94621e.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/03b0867b2a24cf10a7f42fb6f20bdb46.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/d14a0d7ae0620866f236338e1a271968.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/cd7eddc95c48d321b92529777acd9b89.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/3cdcfed630fd59d2d113b2e53100be6a.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/7a6e947b7a56a95cf2c2b4a5ec26e1f9.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/906c3cf9437359f010e68484415ce5da.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/1f2d986e4ae2658071e361f3bd03d820.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/b4e20ccd1553c543b620a4e42dde4166.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/c06c44dd5d727bbdec7f82ceb68f7d67.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/fb3029cc9840466cc0b2a64aa172b313.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/f4d7c065e2cbc7d4accb3eabfb291fe7.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-07/28/3ae1072b937857e647b3a5a0981a17fc.jpg]]></image>
+		<description><![CDATA[Сдам чистый комфортабельный VIP-коттедж для проведения праздничных мероприятий, корпоративов, свадеб в стиле кантри, дней рождения, юбилеев и экватора. Проезд по Горьковскому-Носовихинскому ш. или Москва-Ногинск (Северная рокада) участок от Выхино-Кожухово, 14 км от МКАД в д. Черное. Площадь коттеджа 500 кв.м с евро отделкой, 6-спален (Возможно увелечение до 7 Спален)+Большая гостиная с кондиционером .Отдельно банкетный зал до 50чел. с доп. кухней оборудованной для рестораций. Имеется посуда, фуршетные юбки, чехлы на стулья, профессиональные повара и обслуга по желанию. Дом 4-уровня 4 сан узла, джакузи, теплый пол, оборудованная кухня, бильярдная, настольный теннис, караоке, музыка, спутниковое TV. Напольный футбол. Отдельно стоящий банный комплекс 60 кв.м. с бассейном 3x5-1.7 глубина, под]]></description>
+		<area>
+			<value><![CDATA[500]]></value>
+			<unit><![CDATA[кв.м]]></unit>
+		</area>
+		<lot-area>
+			<value><![CDATA[10]]></value>
+			<unit><![CDATA[сот]]></unit>
+		</lot-area>
+		<rooms><![CDATA[10]]></rooms>
+		<phone><![CDATA[0]]></phone>
+		<internet><![CDATA[0]]></internet>
+		<room-furniture><![CDATA[0]]></room-furniture>
+		<television><![CDATA[нет]]></television>
+		<washing-machine><![CDATA[нет]]></washing-machine>
+		<refrigerator><![CDATA[нет]]></refrigerator>
+		<floors-total><![CDATA[4]]></floors-total>
+		<alarm><![CDATA[0]]></alarm>
+		<sauna><![CDATA[0]]></sauna>
+		<heating-supply><![CDATA[0]]></heating-supply>
+		<water-supply><![CDATA[0]]></water-supply>
+		<sewerage-supply><![CDATA[0]]></sewerage-supply>
+		<electricity-supply><![CDATA[0]]></electricity-supply>
+		<gas-supply><![CDATA[0]]></gas-supply>
+	</offer>
+	<offer internal-id="61389">
+		<type><![CDATA[продажа]]></type>
+		<property-type><![CDATA[жилая]]></property-type>
+		<category><![CDATA[участок]]></category>
+		<url><![CDATA[http://realty.jcat.ru/51516f4e/]]></url>
+		<creation-date><![CDATA[2014-02-18T12:06:24+04:00]]></creation-date>
+		<last-update-date><![CDATA[2014-02-18T12:06:24+04:00]]></last-update-date>
+		<expire-date><![CDATA[2014-02-19T12:06:24+04:00]]></expire-date>
+		<payed-adv><![CDATA[1]]></payed-adv>
+		<manually-added><![CDATA[1]]></manually-added>
+		<location>
+			<country><![CDATA[Россия]]></country>
+			<region><![CDATA[Московская область]]></region>
+			<district><![CDATA[Можайский р-н]]></district>
+			<locality-name><![CDATA[Власово]]></locality-name>
+			<direction><![CDATA[Минское шоссе]]></direction>
+			<distance><![CDATA[90]]></distance>
+		</location>
+		<sales-agent>
+			<name><![CDATA[Станислав]]></name>
+			<phone><![CDATA[+7 (495) 2200208]]></phone>
+			<category><![CDATA[агентство]]></category>
+			<organization><![CDATA[Полезная земля]]></organization>
+			<url><![CDATA[http://www.polzem.ru]]></url>
+			<email><![CDATA[info@polzem.ru]]></email>
+		</sales-agent>
+		<price>
+			<value><![CDATA[200000]]></value>
+			<currency><![CDATA[RUR]]></currency>
+		</price>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-06/03/642d4ed1ff7000640743e79c8ac60cb0.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-06/03/a7ad3be0aea0ea8d455a56452d3c7106.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-06/03/dbb0212953b780fdf990a1105fbc03c4.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-06/03/6e77834024accea11df73ff46fd2390c.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-06/03/eec6fcd22bfae8b374111d6f7244c6ce.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-06/03/0ad557b8b45d37d1ae84f3eac13b8ebf.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-06/03/555f4cf5ec99355dd432637b2eba0b17.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-06/03/38ffc8fab6b0e641267dd3ff41dbe247.jpg]]></image>
+		<description><![CDATA[Земельные участки от собственника без подряда в ДНП Прибрежный и ДНП Прибрежный-2, рядом деревня Власово, Минское шоссе 90 км от МКАД. В поселке великолепные природные ландшафты, естественная лесная зона с вечнозелеными соснами и живописной рекой Протвой по границе, располагающая к пляжному отдыху в жаркие летние дни. В поселке все готово для строительства дома своей мечты, собственный пляж, спортивные и детские площадки, магазин в шаговой доступности. Подведено электричество 10 кВт на участок, проложены дороги, забор по границе поселка, построено административное здание и КПП с охраной. Газ в перс-ве. Стоимость обустройства и подключения электричества составляет 230 000 рублей с участка. Участки от 7 до 30 соток. Стоимость от 20 000 за сотку. Документы готовы. Возможна рассрочка платежа!]]></description>
+		<lot-area>
+			<value><![CDATA[10]]></value>
+			<unit><![CDATA[сот]]></unit>
+		</lot-area>
+		<lot-type><![CDATA[дачное строительство]]></lot-type>
+		<bathroom-unit><![CDATA[0]]></bathroom-unit>
+		<water-supply><![CDATA[0]]></water-supply>
+		<electricity-supply><![CDATA[1]]></electricity-supply>
+		<gas-supply><![CDATA[0]]></gas-supply>
+	</offer>
+	<offer internal-id="60259">
+		<type><![CDATA[продажа]]></type>
+		<property-type><![CDATA[жилая]]></property-type>
+		<category><![CDATA[комната]]></category>
+		<url><![CDATA[http://realty.jcat.ru/5b0a372d/]]></url>
+		<creation-date><![CDATA[2014-02-18T12:06:24+04:00]]></creation-date>
+		<last-update-date><![CDATA[2014-02-18T12:06:24+04:00]]></last-update-date>
+		<expire-date><![CDATA[2014-02-19T12:06:24+04:00]]></expire-date>
+		<payed-adv><![CDATA[1]]></payed-adv>
+		<manually-added><![CDATA[1]]></manually-added>
+		<location>
+			<country><![CDATA[Россия]]></country>
+			<region><![CDATA[Москва]]></region>
+			<locality-name><![CDATA[Москва]]></locality-name>
+			<sub-locality-name><![CDATA[Москворечье-Сабурово]]></sub-locality-name>
+			<address><![CDATA[Пролетарский проспект, 17, 1]]></address>
+			<metro>
+				<name><![CDATA[Кантемировская]]></name>
+				<time-on-foot><![CDATA[7]]></time-on-foot>
+			</metro>
+		</location>
+		<sales-agent>
+			<name><![CDATA[Галина Афанасьевна]]></name>
+			<phone><![CDATA[+7 (925) 5894008]]></phone>
+			<category><![CDATA[агентство]]></category>
+			<organization><![CDATA[Агентство недвижимости &quot;Гостиный Двор&quot;]]></organization>
+			<url><![CDATA[http://www.gost-dvor.ru/]]></url>
+			<email><![CDATA[9255894008@mail.ru]]></email>
+		</sales-agent>
+		<price>
+			<value><![CDATA[2750000]]></value>
+			<currency><![CDATA[RUR]]></currency>
+		</price>
+		<renovation><![CDATA[евро]]></renovation>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-05/28/0bb472aaa4f58f8e35688e787e48fca0.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-05/28/325be23160e3400533a12b606b9f0ba8.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-05/28/0822b1c1b178a8529eb7e48b7529b149.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-05/28/4e3d881d2a4a8c2b718f5f42e4a1525f.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-05/28/e09d1463ca31e6142f524b7112bc571c.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-05/28/00f2ec6c48b932e79f73200692ee10de.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-05/28/084c92e2c88285061d7400dc5f725e62.jpg]]></image>
+		<image><![CDATA[http://www.jcat.ru/images/orders/2013-05/28/5103491451be75e06886946533d4cbd1.jpg]]></image>
+		<description><![CDATA[&apos;Возможна продажа еще 1 комнаты за 2650000руб. соседи очередники. Рядом 3 школы, 3 д/сада, детская и взрослая поликлиники, магазин Перекресток, торговый центр Кантемировский, легкая альтернатива.&apos;]]></description>
+		<area>
+			<value><![CDATA[77.4]]></value>
+			<unit><![CDATA[кв.м]]></unit>
+		</area>
+		<living-space>
+			<value><![CDATA[14]]></value>
+			<unit><![CDATA[кв.м]]></unit>
+		</living-space>
+		<kitchen-space>
+			<value><![CDATA[10.1]]></value>
+			<unit><![CDATA[кв.м]]></unit>
+		</kitchen-space>
+		<rooms><![CDATA[3]]></rooms>
+		<rooms-offered><![CDATA[1]]></rooms-offered>
+		<phone><![CDATA[1]]></phone>
+		<internet><![CDATA[0]]></internet>
+		<room-furniture><![CDATA[0]]></room-furniture>
+		<balcony><![CDATA[балкон]]></balcony>
+		<bathroom-unit><![CDATA[раздельный]]></bathroom-unit>
+		<floor><![CDATA[3]]></floor>
+		<floors-total><![CDATA[17]]></floors-total>
+		<building-type><![CDATA[панель]]></building-type>
+		<lift><![CDATA[0]]></lift>
+		<rubbish-chute><![CDATA[0]]></rubbish-chute>
+	</offer>
+</realty-feed>
