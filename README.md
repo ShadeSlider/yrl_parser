@@ -1,4 +1,7 @@
-yrl_parser
+Yandex Realty Language parser
 ==========
 
-Yandex Realty Language parser
+#Installation
+
+1. Clone repository:
+2. 
